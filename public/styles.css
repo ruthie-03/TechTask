@@ -1,0 +1,23 @@
+/* Styling for the whole body of the webpage */
+body {
+    background-color: rgb(242, 230, 213);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Styling for elements with the class "header" */
+.header {
+    display: absolute;
+    font-size: 72px;
+}
+
+/* Styling for the "Daily-Ad" section */
+#Daily-Ad {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0.25;
+
+}
+
