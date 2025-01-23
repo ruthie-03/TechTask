@@ -43,6 +43,8 @@ Setup Instructions
 4. Install Dependencies (Use code editor terminal to run the following command):
 npm install
 
+This will install a node modules folder and package-lock.json which is essential for the project to run.
+
 5. Run the Server
 Start the application by running the following command in the terminal:
 node server.js
