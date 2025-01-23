@@ -40,7 +40,7 @@ Setup Instructions
 •	Use the cd command in terminal to navigate to the folder where the extracted files are located. For example:
     cd "path-to-extracted-folder/RuthEnglishTECHTASK"
 
-4. Install Dependencies (Use code editor terminal to run the following command:)
+4. Install Dependencies (Use code editor terminal to run the following command):
 npm install
 
 5. Run the Server
