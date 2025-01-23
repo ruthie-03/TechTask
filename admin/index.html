@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title displayed in the browser tab -->
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Admin Panel Header-->
+    <h1>Admin Panel</h1><br>
+    <h3>Please submit new 'Bean of the Day' information:</h3>
+    <!-- Admin form for adding new 'Bean of the Day' records -->
+    <form id="product-form">
+        <!-- Every field is required for successful form submission -->
+        <input type="text" id="name" placeholder="Product Name" required /><br>
+        <input type="text" id="aroma" placeholder="Aroma" required /><br>
+        <input type="text" id="colour" placeholder="Colour" required /><br>
+        <!-- Input for cost per 100g, accepts decimal values with a minimum of 0.01 -->
+        <input type="number" id="costPer100g" placeholder="Cost Per 100g" step="0.01" min="0.01" required /> <br>
+        <input type="text" id="roastLevel" placeholder="Roast Level" /><br>
+        <input type="text" id="origin" placeholder="Origin" /><br>
+        <input type="text" id="certifications" placeholder="Certifications (comma separated)" /><br>
+        <input type="text" id="description" placeholder="Description" /><br>
+        <input type="text" id="product-dates" name="displayDates" placeholder="Enter dates" /> For example: YYYY-MM-DD,YYYY-MM-DD,YYYY-MM-DD<br><br>
+
+        <!--Admin button to submit form-->
+        <button type="submit">Add Product</button> 
+    </form>
+    
+    
+    <!-- Container to display a list of added products dynamically via JavaScript-->
+    <div id="admin-product-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
